@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: orders        # logical name used in dbt
+    database: dbt_cloud             # ✅ database
+    schema: raw_schema               # ✅ schema
+    tables:
+      - name: orders        # ✅ table
